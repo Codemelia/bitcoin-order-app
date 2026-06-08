@@ -2,7 +2,9 @@ name: "sast-scan"
 
 on:
   push:
-    branches: [githubcicd]
+    branches: 
+      - githubcicd
+      - feature/mlops
 
 jobs:
   sast:
