@@ -2,9 +2,9 @@ name: "linting-tool-scan"
 
 on:
   push:
-    branches: 
+    branches:
      - githubcicd
-     - feature/mlops
+     - feature/mlops-demo
 
 jobs:
   test:
